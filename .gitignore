@@ -1,0 +1,12 @@
+build/
+obj-*/
+*.deb
+*.ddeb
+*.buildinfo
+*.changes
+debian/.debhelper/
+debian/fcitx5-boshiamy/
+debian/files
+debian/*.substvars
+debian/*.debhelper*
+debian/debhelper-build-stamp

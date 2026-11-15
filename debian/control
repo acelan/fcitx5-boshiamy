@@ -1,0 +1,41 @@
+Source: fcitx5-boshiamy
+Section: utils
+Priority: optional
+Maintainer: Chia-Lin Kao (AceLan) <acelan@acelan.idv.tw>
+Build-Depends:
+ cmake,
+ debhelper-compat (= 13),
+ extra-cmake-modules,
+ fcitx5-modules-dev,
+ gettext,
+ libfcitx5config-dev,
+ libfcitx5core-dev,
+ libfcitx5utils-dev,
+ pkgconf,
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+
+Package: fcitx5-boshiamy
+Architecture: any
+Depends:
+ fcitx5,
+ ${misc:Depends},
+ ${shlibs:Depends},
+Recommends:
+ fcitx5-module-fullwidth,
+Conflicts:
+ fcitx-table-boshiamy,
+ fcitx5-table-boshiamy,
+Replaces:
+ fcitx-table-boshiamy,
+ fcitx5-table-boshiamy,
+Provides:
+ fcitx5-table-boshiamy,
+Description: Boshiamy input method support for fcitx5
+ Fcitx5 is the next generation of fcitx input method framework.
+ .
+ This package provides a standalone Boshiamy input method engine for
+ fcitx5 with native support for Speed Mode (,,sp), dynamic homophone
+ lookup (` prefix), Simplified/Traditional switching (,,c/,,t), wildcard
+ lookup (* and ?), V/R/S/F selection, custom dictionary reload (,,r),
+ reverse code lookup (,,q), and typing statistics (,,st).

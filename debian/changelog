@@ -1,0 +1,9 @@
+fcitx5-boshiamy (1.0.0) unstable; urgency=medium
+
+  * Initial release of standalone fcitx5-boshiamy engine with Speed Mode
+    (,,sp), dynamic homophone lookup (` prefix), Simplified/Traditional
+    output switching (,,c / ,,t), wildcard lookup (? and *), V/R/S/F
+    selection, custom dictionary hot reload (,,r), reverse code lookup
+    (,,q), and typing statistics (,,st).
+
+ -- Chia-Lin Kao (AceLan) <acelan@acelan.idv.tw>  Sun, 15 Nov 2026 10:00:00 +0800

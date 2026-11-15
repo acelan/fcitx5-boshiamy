@@ -1,0 +1,2 @@
+install(DIRECTORY 16x16 22x22 24x24 48x48 64x64
+        DESTINATION "${CMAKE_INSTALL_DATADIR}/icons/hicolor")

@@ -1,0 +1,9 @@
+[InputMethod]
+Name=Boshiamy
+Name[zh_CN]=嘸蝦米
+Name[zh_TW]=嘸蝦米
+Icon=fcitx_boshiamy
+Label=嘸
+LangCode=zh_TW
+Addon=boshiamy
+Configurable=True

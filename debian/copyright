@@ -1,0 +1,59 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: fcitx5-boshiamy
+Upstream-Contact: Chia-Lin Kao (AceLan) <acelan@acelan.idv.tw>
+
+Files: *
+Copyright: 2026 Chia-Lin Kao (AceLan) <acelan@acelan.idv.tw>
+License: LGPL-2.1-or-later
+
+Files: data/boshiamy.txt
+Copyright: none
+License: public-domain
+Comment:
+ Copied unmodified from tables/boshiamy.txt of fcitx5-table-extra
+ (https://github.com/fcitx/fcitx5-table-extra), whose README states:
+ "Boshiamy's patent is expired at 2003.11.11." and
+ "All the data file is now in public domain."
+
+Files: icons/*
+Copyright: fcitx5-table-extra developers
+License: GPL-3.0-or-later
+Comment: Copied unmodified from fcitx5-table-extra.
+
+Files: data/chewing_word.csv
+Copyright: 2025 libchewing Core Team
+License: LGPL-2.1-or-later
+
+Files: data/t2s.txt
+Copyright: Carbo Kuo (BYVoid) and OpenCC contributors
+License: Apache-2.0
+Comment: Generated from the OpenCC tw2s conversion tables
+ (https://github.com/BYVoid/OpenCC).
+
+License: public-domain
+ The files are in the public domain; no copyright is claimed.
+
+License: LGPL-2.1-or-later
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 2.1 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: GPL-3.0-or-later
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ .
+ On Debian systems, the full text of the Apache License, Version 2.0
+ can be found in `/usr/share/common-licenses/Apache-2.0'.

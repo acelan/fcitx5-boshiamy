@@ -1,0 +1,18 @@
+[Addon]
+Name=Boshiamy
+Name[zh_CN]=无虾米
+Name[zh_TW]=嘸蝦米
+Comment=Boshiamy Input Method for Fcitx5
+Comment[zh_TW]=Fcitx5 獨立嘸蝦米輸入法引擎（支援快打模式與同音字查詢）
+Category=InputMethod
+Version=@PROJECT_VERSION@
+Type=SharedLibrary
+OnDemand=True
+Configurable=True
+Library=libboshiamy
+
+[Addon/Dependencies]
+0=core:@REQUIRED_FCITX_VERSION@
+
+[Addon/OptionalDependencies]
+0=fullwidth
